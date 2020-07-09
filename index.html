@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h5 class="card-header">Select color</h5>
+            <div class="card-body">
+              <p style="display: none;" id="change1"></p>
+              <p style="display: none;" id="change2"></p>
+              <p style="display: none;" id="change3"></p>
+              <p style="display: none;" id="change4"></p>
+              <p style="display: none;" id="change5"></p>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="select01">Color-1</label>
+                    </div>
+                    <select class="custom-select" id="select01" onchange="selectColor01(this.value)">
+                      <option selected disabled hidden>Choose...</option>
+                      <option id="red" value="red"></option>
+                      <option id="yellow" value="yellow"></option>
+                      <option id="blue" value="blue"></option>
+                      <option id="green" value="green"></option>
+                      <option id="pink" value="pink"></option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="select02">Color-2</label>
+                  </div>
+                  <select class="custom-select" id="select02" onchange="selectColor02(this.value)">
+                    <option selected disabled hidden>Choose...</option>
+                    <option id="red" value="red"></option>
+                    <option id="yellow" value="yellow"></option>
+                    <option id="blue" value="blue"></option>
+                    <option id="green" value="green"></option>
+                    <option id="pink" value="pink"></option>
+                  </select>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="select03">Color-3</label>
+                  </div>
+                  <select class="custom-select" id="select03" onchange="selectColor03(this.value)">
+                    <option selected disabled hidden>Choose...</option>
+                    <option id="red" value="red"></option>
+                    <option id="yellow" value="yellow"></option>
+                    <option id="blue" value="blue"></option>
+                    <option id="green" value="green"></option>
+                    <option id="pink" value="pink"></option>
+                  </select>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="select04">Color-4</label>
+                  </div>
+                  <select class="custom-select" id="select04" onchange="selectColor04(this.value)">
+                    <option selected disabled hidden>Choose...</option>
+                    <option id="red" value="red"></option>
+                    <option id="yellow" value="yellow"></option>
+                    <option id="blue" value="blue"></option>
+                    <option id="green" value="green"></option>
+                    <option id="pink" value="pink"></option>
+                  </select>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="select05">Color-5</label>
+                  </div>
+                  <select class="custom-select" id="select05" onchange="selectColor05(this.value)">
+                    <option selected disabled hidden>Choose...</option>
+                    <option id="red" value="red"></option>
+                    <option id="yellow" value="yellow"></option>
+                    <option id="blue" value="blue"></option>
+                    <option id="green" value="green"></option>
+                    <option id="pink" value="pink"></option>
+                  </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
